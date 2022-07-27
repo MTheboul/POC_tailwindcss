@@ -2,3 +2,11 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+.header-bar {
+    @apply border-b md:flex md:items-center md:justify-between p-4 pb-0 shadow-lg md:pb-4;
+}
+
+.btn-nav {
+    @apply block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0
+}
